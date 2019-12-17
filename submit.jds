@@ -1,0 +1,9 @@
+executable = run.sh
+universe = vanilla
+getenv = True
+
+log = ./logs/$(cluster).log
+output = ./logs/$(cluster).output
+error = ./logs/$(cluster).error
+
+queue
